@@ -3,6 +3,9 @@ package com.leo.javastandard;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author leo
+ */
 @SpringBootApplication
 public class JavaStandardApplication {
 
