@@ -8,7 +8,10 @@ import java.util.concurrent.locks.ReentrantLock;
 public class ReentrantLockTest {
 
     private static int num = 0;
+
     private static ReentrantLock lock = new ReentrantLock();
+    /// 公平锁，默认是非公平
+//    private static ReentrantLock fairLock = new ReentrantLock(true);
 
     private static void add() {
         lock.lock();
